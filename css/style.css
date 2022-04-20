@@ -18,14 +18,19 @@ a:hover {
   color: var(--white);
 }
 .banner {
-  background-image: url(/asset/images/background.jpg);
+  background-image: url(../images/background.jpg);
   width: 100%;
   height: 952px;
   position: relative;
 }
 body {
   overflow-x: hidden;
+  position: relative;
   /* background-color: red; */
+}
+nav{
+  background-color: transparent !important;
+  z-index: 123;
 }
 
 .navbar-brand > span:nth-child(1) {
@@ -397,7 +402,7 @@ color: #20184E;
 }
 
 #package {
-  background-image: url(/asset/images/Rectangle49.jpg);
+  background-image: url(../images/rectangle49.jpg);
   height: 1200px;
   margin: 90px 0;
   background-repeat: no-repeat;
@@ -703,7 +708,7 @@ color: #20184E;
   color: #20184e;
 }
 .client-list {
-  background-image: url(/asset/images/Rectangle55.png);
+  background-image: url(../images/rectangle55.png);
   background-repeat: no-repeat;
   position: relative;
   height: 104px;
@@ -863,7 +868,7 @@ color: #20184E;
 }
 
 #founder {
-  background-image: url(/asset/images/background.jpg);
+  background-image: url(../images/background.jpg);
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
